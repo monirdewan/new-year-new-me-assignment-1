@@ -1,0 +1,83 @@
+/* Common Reset Code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+   
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* header Banner CSS */
+
+.header-banner{
+    background-image: url('../images/banner/banner2.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+ width: 50%;
+ margin-left: auto;
+ text-align: right;
+ padding-top: 12%;
+}
+
+.header-content h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #151414;
+}
+
+.header-content p{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0 20px 0;
+}
+
+.header-content button{
+    background-color: #F15B22;
+    border: 0;
+    width: 150px;
+    height: 60px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* My Failur Section CSS */
+
+.my-failurs{
+    margin-top: 100px;
+    background-color: #f2f2f2;
+}
+
+.failur-content li img{
+    width: 20px;
+}
+
+.failur-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failur-info img{
+    width: 500px;
+   
+}
+
