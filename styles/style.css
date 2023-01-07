@@ -205,5 +205,74 @@ body{
     margin-top: 20px;
 }
 
+/* Footer CSS */
+
+.footer-area{
+    background-color: #151414;
+    height: auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    align-items: baseline;
+    padding: 80px 0;
+}
+
+.future-content, .subscribe{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.future-content h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.future-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.social-section img{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.subscrib-section h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 0 20px;
+}
+
+.subscrib-section input{
+    display: block;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.subscrib-section input[type="submit"]{
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #F15B22;
+    font-weight: 600;
+}
+
+
+
+
 
 
