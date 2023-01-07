@@ -113,11 +113,11 @@ body{
 
 /* My Plans Sections */
 
-.plans-section{
+.plan-section{
     margin-top: 150px;
 }
 
-.plans-section h2{
+.plan-section h2{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
