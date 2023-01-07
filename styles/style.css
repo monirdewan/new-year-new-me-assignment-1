@@ -1,15 +1,16 @@
 /* Common Reset Code */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
-   
+
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
@@ -17,7 +18,7 @@ body{
 
 /* header Banner CSS */
 
-.header-banner{
+.header-banner {
     background-image: url('../images/banner/banner2.png');
     width: 100%;
     height: 100vh;
@@ -26,29 +27,29 @@ body{
     background-position: center;
 }
 
-.header-content{
- width: 50%;
- margin-left: auto;
- text-align: right;
- padding-top: 12%;
+.header-content {
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+    padding-top: 12%;
 }
 
-.header-content h1{
+.header-content h1 {
     font-size: 65px;
     font-weight: 700;
     line-height: 76px;
     color: #151414;
 }
 
-.header-content p{
-    color:  #444343;
+.header-content p {
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin: 10px 0 20px 0;
 }
 
-.header-content button{
+.header-content button {
     background-color: #F15B22;
     border: 0;
     width: 150px;
@@ -61,36 +62,37 @@ body{
 
 /* My Failur Section CSS */
 
-.my-failurs{
+.my-failurs {
     margin-top: 100px;
     background-color: #f2f2f2;
 }
 
 
 
-.failur-info{
+.failur-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.failur-info img{
+.failur-info img {
     width: 500px;
 }
-.failur-content{
+
+.failur-content {
     width: 500px;
     padding: 25px;
     text-align: left;
 }
 
-.failur-content h2{
+.failur-content h2 {
     font-size: 40px;
     font-weight: 700;
     color: #151414;
     line-height: 47px;
 }
 
-.failur-content p{
+.failur-content p {
     margin: 25px 0;
     font-size: 16px;
     font-weight: 400;
@@ -105,7 +107,7 @@ body{
     align-items: center;
 }
 
-.failur-content li img{
+.failur-content li img {
     width: 24px;
     height: 24px;
     margin-right: 10px;
@@ -113,78 +115,80 @@ body{
 
 /* My Projects */
 
-.project-area{
+.project-area {
     margin-top: 50px;
     padding: 50px;
     text-align: center;
     background-color: #eedada;
 }
 
-.project-area h3{
+.project-area h3 {
     font-size: 40px;
     text-align: center;
     margin: 50px 0;
-    color: #151414;;
+    color: #151414;
+    ;
 }
 
-.project-area p{
+.project-area p {
     width: 50%;
     margin: 0 auto 50px;
 }
 
-.projects{
+.projects {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
-.single-project img{
+.single-project img {
     width: 450px;
     height: 400px;
     border: 2px solid rgb(122, 96, 236);
     border-radius: 5px;
-   
-   
+
+
 }
 
 /* My Plans Sections */
 
-.plan-section{
+.plan-section {
     margin-top: 150px;
 }
 
-.plan-section h2{
+.plan-section h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
 }
 
-.my-plans{
+.my-plans {
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
 }
 
-.single-plans{
+.single-plans {
     padding: 20px;
     text-align: center;
 }
 
-.single-plans img{
+.single-plans img {
     width: 100px;
     height: 100px;
 }
-.single-plans h4{
+
+.single-plans h4 {
     font-size: 30px;
     font-weight: 700;
     color: #151414;
-    margin: 10px 0 ;
+    margin: 10px 0;
     line-height: 36px;
 }
 
-.single-plans p{
+.single-plans p {
     font-size: 25px;
     font-weight: 500;
     color: #737272;
@@ -193,7 +197,7 @@ body{
 
 /* Call Now Banner CSS */
 
-.call-now-banner{
+.call-now-banner {
     background-image: url('../images/watch.png');
     height: 40vh;
     background-repeat: no-repeat;
@@ -204,18 +208,18 @@ body{
     z-index: 1;
 }
 
-.call-now-banner::after{
+.call-now-banner::after {
     position: absolute;
     content: "";
     width: 100%;
     height: 100%;
-    background:linear-gradient(90deg, #f76227 0%, rgba(243, 87, 26, 0) 100%);
+    background: linear-gradient(90deg, #f76227 0%, rgba(243, 87, 26, 0) 100%);
     top: 0;
     left: 0;
     z-index: -1;
 }
 
-.call-now-content{
+.call-now-content {
     color: #fff;
     position: absolute;
     width: 50%;
@@ -224,13 +228,13 @@ body{
     transform: translateY(-50%);
 }
 
-.call-now-content h2{
+.call-now-content h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
 }
 
-.call-now-content button{
+.call-now-content button {
     background-color: #fff;
     color: #F15B22;
     border: 0;
@@ -244,11 +248,12 @@ body{
 
 /* Footer CSS */
 
-.footer-area{
+.footer-area {
     background-color: #151414;
     height: auto;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     justify-content: space-between;
     color: #ffff;
@@ -256,18 +261,19 @@ body{
     padding: 80px 0;
 }
 
-.future-content, .subscribe{
+.future-content,
+.subscribe {
     width: 50%;
     margin-top: 20px;
 }
 
-.future-content h3{
+.future-content h3 {
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
 }
 
-.future-content p{
+.future-content p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -275,20 +281,20 @@ body{
     text-align: left;
 }
 
-.social-section img{
+.social-section img {
     margin-right: 10px;
     width: 40px;
     height: 40px;
 }
 
-.subscrib-section h3{
+.subscrib-section h3 {
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
     margin: 0 0 20px;
 }
 
-.subscrib-section input{
+.subscrib-section input {
     display: block;
     padding: 10px;
     border: 1px solid #fff;
@@ -299,7 +305,7 @@ body{
     color: #ffff;
 }
 
-.subscrib-section input[type="submit"]{
+.subscrib-section input[type="submit"] {
     width: 160px;
     height: 60px;
     background-color: #fff;
@@ -308,9 +314,3 @@ body{
     color: #F15B22;
     font-weight: 600;
 }
-
-
-
-
-
-
